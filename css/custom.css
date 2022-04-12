@@ -1,1 +1,249 @@
-svg.icon{width:1em;height:1em;vertical-align:-.15em;fill:currentColor;overflow:hidden}svg.icon.festival-decoration{width:3em;height:3em;left:2em;margin-bottom:-3em;display:block;z-index:100;position:relative;-webkit-animation:sway 1s infinite ease-in-out alternate;animation:sway 1s infinite ease-in-out alternate}@-webkit-keyframes sway{0%{-webkit-transform:rotate(20deg);transform-origin:center top}100%{-webkit-transform:rotate(-20deg);transform-origin:center top}}@keyframes sway{0%{transform:rotate(20deg);transform-origin:center top}100%{transform:rotate(-20deg);transform-origin:center top}}.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body{left:-66px!important}.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover{left:0!important}#page-header,#web_bg{-webkit-animation:imgblur .6s 1 ease-in-out;animation:imgblur .6s 1 ease-in-out}@keyframes imgblur{0%{filter:blur(5px)}100%{filter:blur(0)}}@-webkit-keyframes imgblur{0%{-webkit-filter:blur(5px)}100%{-webkit-filter:blur(0)}}::-webkit-scrollbar{width:8px;height:8px}::-webkit-scrollbar-track{background-color:rgba(73,177,245,.2);border-radius:2em}::-webkit-scrollbar-thumb{background-color:#49b1f5;background-image:-webkit-linear-gradient(45deg,rgba(255,255,255,.4) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.4) 50%,rgba(255,255,255,.4) 75%,transparent 75%,transparent);border-radius:2em}::-webkit-scrollbar-corner{background-color:transparent}::-moz-selection{color:#fff;background-color:#49b1f5}.card-info-avatar:hover{background:url(https://cdn.jsdelivr.net/gh/rigodlee/BLOGCDN/img/H3342af90d24b4d62b9bbfec9688ccc25M.gif)}.hide-block>a.hide-button.open,.hide-inline>a.hide-button.open{display:inline-block}@font-face{font-family:"w";src:url(../font/w.ttf)}body{font-family:"w"}#footer{background:0 0!important}#footer::before{background:0 0!important}#page-header{background:0 0!important}body{cursor:url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur),default}a,img{cursor:url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur),default}@keyframes gradientBG{0%{background-position:0 50%}50%{background-position:100% 50%}100%{background-position:0 50%}}#web_bg{background:linear-gradient(-45deg,#ee7752,#e73c7e,#23a6d5,#23d5ab);background-size:400% 400%;animation:gradientBG 15s ease infinite}.iconfont{font-family:iconfont!important;font-size:3em;font-style:normal;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.icon-rat:before{color:#85c3de}.icon-ox:before{color:#ffaf6e}.icon-tiger:before{color:#f7c768}.icon-rabbit:before{color:#ffbdd8}.icon-dragon:before{color:#ff8787}.icon-snake:before{color:#c3d686}.icon-horse:before{color:#ffaf6e}.icon-goat:before{color:#f7c768}.icon-monkey:before{color:#c3d686}.icon-rooster:before{color:#ff8787}.icon-dog:before{color:#85c3de}.icon-boar:before{color:#ffbdd8}.icon{width:1em;height:1em;vertical-align:-.15em;fill:currentColor;overflow:hidden}.copyright svg{animation:butterfly 1s linear infinite alternate}@keyframes butterfly{from{transform:rotateY(70deg)}to{transform:rotateY(0)}}.copyright{display:flex;justify-content:center;align-items:center}
+svg.icon {
+  /* 这里定义svg.icon，避免和Butterfly自带的note标签冲突 */
+  width: 1em;
+  height: 1em;
+  /* width和height定义图标的默认宽度和高度*/
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+svg.icon.festival-decoration {
+  width: 3em;
+  height: 3em;
+  left: 2em;
+  margin-bottom: -3em;
+  display: block;
+  z-index: 100;
+  position: relative;
+  -webkit-animation: sway 1s infinite ease-in-out alternate;
+  animation: sway 1s infinite ease-in-out alternate;
+}
+@-webkit-keyframes sway {
+  0% {
+    -webkit-transform: rotate(20deg);
+    transform-origin: center top;
+  }
+  100% {
+    -webkit-transform: rotate(-20deg);
+    transform-origin: center top;
+  }
+}
+@keyframes sway {
+  0% {
+    transform: rotate(20deg);
+    transform-origin: center top;
+  }
+  100% {
+    transform: rotate(-20deg);
+    transform-origin: center top;
+  }
+}
+
+.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+  left: -66px !important;
+  /* 默认情况下缩进左侧66px，只留一点箭头部分 */
+}
+
+.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+  left: 0 !important;
+  /* 鼠标悬停是左侧缩进归零，完全显示按钮 */
+}
+
+/*10s为加载动画的时间，1为加载动画的次数，ease-in-out为动画效果*/
+#page-header,
+#web_bg {
+  -webkit-animation: imgblur 0.6s 1 ease-in-out;
+  animation: imgblur 0.6s 1 ease-in-out;
+}
+@keyframes imgblur {
+  0% {
+    filter: blur(5px);
+  }
+  100% {
+    filter: blur(0px);
+  }
+}
+/*适配使用-webkit内核的浏览器 */
+@-webkit-keyframes imgblur {
+  0% {
+    -webkit-filter: blur(5px);
+  }
+  100% {
+    -webkit-filter: blur(0px);
+  }
+}
+
+/* 滚动条 */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(73, 177, 245, 0.2);
+  border-radius: 2em;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #49b1f5;
+  background-image: -webkit-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.4) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.4) 50%,
+    rgba(255, 255, 255, 0.4) 75%,
+    transparent 75%,
+    transparent
+  );
+  border-radius: 2em;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+::-moz-selection {
+  color: #fff;
+  background-color: #49b1f5;
+}
+
+/* 彩带 */
+.card-info-avatar:hover {
+  background: url(https://cdn.jsdelivr.net/gh/rigodlee/BLOGCDN/img/H3342af90d24b4d62b9bbfec9688ccc25M.gif);
+}
+
+/* 隐藏按钮? */
+.hide-block > a.hide-button.open,
+.hide-inline > a.hide-button.open {
+  display: inline-block;
+}
+
+/*字体*/
+@font-face {
+  font-family: "w";
+  src: url("../font/w.ttf");
+}
+body {
+  font-family: "w";
+}
+
+/* 页脚透明 */
+#footer{
+  background: transparent!important;
+}
+/* 页脚黑色透明玻璃效果移除 */
+#footer::before{
+    background: transparent!important;
+  }
+/* 头图透明 */
+#page-header {
+  background: transparent !important;
+}
+/*top-img黑色透明玻璃效果移除，不建议加，除非你执着于完全一图流或者背景图对比色明显 */
+/* #page-header.post-bg:before {
+  background-color: transparent!important;
+} */
+
+/*鼠标*/
+body {
+  cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur),
+    default;
+}
+a,
+img {
+  cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur),
+    default;
+}
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+#web_bg {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+}
+
+@import "//at.alicdn.com/t/font_2264842_b004iy0kk2b.css";
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 3em;
+  /* 可以定义图标大小 */
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* 若已经在项目设置中勾选了彩色选项，则无需再定义图标颜色*/
+.icon-rat:before {
+  color: #85c3de;
+}
+.icon-ox:before {
+  color: #ffaf6e;
+}
+.icon-tiger:before {
+  color: #f7c768;
+}
+.icon-rabbit:before {
+  color: #ffbdd8;
+}
+.icon-dragon:before {
+  color: #ff8787;
+}
+.icon-snake:before {
+  color: #c3d686;
+}
+.icon-horse:before {
+  color: #ffaf6e;
+}
+.icon-goat:before {
+  color: #f7c768;
+}
+.icon-monkey:before {
+  color: #c3d686;
+}
+.icon-rooster:before {
+  color: #ff8787;
+}
+.icon-dog:before {
+  color: #85c3de;
+}
+.icon-boar:before {
+  color: #ffbdd8;
+}
+
+/*iconfont默认样式*/
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+/* 页脚蝴蝶振翅动画 */
+.copyright svg {
+  animation: butterfly 1s linear infinite alternate;
+}
+@keyframes butterfly {
+  from {
+    transform: rotateY(70deg);
+  }
+  to {
+    transform: rotateY(0deg);
+  }
+}
+/*垂直居中*/
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
