@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://lowblog.github.io/ #网站链接
+url: https://catth.eu.org #网站链接
 #permalink: :year/:month/:day/:title/
 permalink: archives/:abbrlink.html  # p 是自定义的前缀
 abbrlink:
@@ -136,7 +136,7 @@ footer_beautify:
   swiperbdage_init_js: https://npm.elemecdn.com/hexo-butterfly-footer-beautify/lib/swiperbdage_init.min.js
 
 wowjs:
-  enable: true #控制动画开关。true是打开，false是关闭
+  enable: false #控制动画开关。true是打开，false是关闭
   priority: 1 #过滤器优先级
   mobile: false #移动端是否启用，默认移动端禁用
   animateitem:
