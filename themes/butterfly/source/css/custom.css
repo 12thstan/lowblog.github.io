@@ -111,7 +111,7 @@ svg.icon.festival-decoration {
 
 /* 彩带 */
 .card-info-avatar:hover {
-  background: url(https://cdn.jsdelivr.net/gh/rigodlee/BLOGCDN/img/H3342af90d24b4d62b9bbfec9688ccc25M.gif);
+  background: url(https://jsd.cdn.zzko.cn/gh/rigodlee/BLOGCDN/img/H3342af90d24b4d62b9bbfec9688ccc25M.gif);
 }
 
 /* 隐藏按钮? */
@@ -139,12 +139,12 @@ svg.icon.festival-decoration {
 
 /*鼠标*/
 body {
-  cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur),
+  cursor: url(https://jsd.cdn.zzko.cn/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur),
     default;
 }
 a,
 img {
-  cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur),
+  cursor: url(https://jsd.cdn.zzko.cn/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur),
     default;
 }
 
