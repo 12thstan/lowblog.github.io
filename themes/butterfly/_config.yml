@@ -810,38 +810,38 @@ inject:
 CDN:
   # main
   main_css: /css/index.css
-  jquery: https://jsd.cdn.zzko.cn/npm/jquery@latest/dist/jquery.min.js
+  jquery: https://Fastly.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js
   main: /js/main.js
   utils: /js/utils.js
 
   # pjax
-  pjax: https://jsd.cdn.zzko.cn/npm/pjax/pjax.min.js
+  pjax: https://Fastly.jsdelivr.net/npm/pjax/pjax.min.js
 
   # comments
-  gitalk: https://jsd.cdn.zzko.cn/npm/gitalk@latest/dist/gitalk.min.js
-  gitalk_css: https://jsd.cdn.zzko.cn/npm/gitalk/dist/gitalk.min.css
-  valine: https://jsd.cdn.zzko.cn/npm/valine/dist/Valine.min.js
-  disqusjs: https://jsd.cdn.zzko.cn/npm/disqusjs@1/dist/disqus.js
-  disqusjs_css: https://jsd.cdn.zzko.cn/npm/disqusjs@1/dist/disqusjs.css
+  gitalk: https://Fastly.jsdelivr.net/npm/gitalk@latest/dist/gitalk.min.js
+  gitalk_css: https://Fastly.jsdelivr.net/npm/gitalk/dist/gitalk.min.css
+  valine: https://Fastly.jsdelivr.net/npm/valine/dist/Valine.min.js
+  disqusjs: https://Fastly.jsdelivr.net/npm/disqusjs@1/dist/disqus.js
+  disqusjs_css: https://Fastly.jsdelivr.net/npm/disqusjs@1/dist/disqusjs.css
   utterances: https://utteranc.es/client.js
 
   # share
   addtoany: https://static.addtoany.com/menu/page.js
-  sharejs: https://jsd.cdn.zzko.cn/npm/social-share.js/dist/js/social-share.min.js
-  sharejs_css: https://jsd.cdn.zzko.cn/npm/social-share.js/dist/css/share.min.css
+  sharejs: https://Fastly.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js
+  sharejs_css: https://Fastly.jsdelivr.net/npm/social-share.js/dist/css/share.min.css
 
   # search
   local_search: /js/search/local-search.js
   algolia_js: /js/search/algolia.js
-  algolia_search: https://jsd.cdn.zzko.cn/npm/instantsearch.js@2.10.5/dist/instantsearch.min.js
-  algolia_search_css: https://jsd.cdn.zzko.cn/npm/instantsearch.js@2.10.5/dist/instantsearch.min.css
+  algolia_search: https://Fastly.jsdelivr.net/npm/instantsearch.js@2.10.5/dist/instantsearch.min.js
+  algolia_search_css: https://Fastly.jsdelivr.net/npm/instantsearch.js@2.10.5/dist/instantsearch.min.css
 
   # math
-  mathjax: https://jsd.cdn.zzko.cn/npm/mathjax@3/es5/tex-mml-chtml.js
-  katex: https://jsd.cdn.zzko.cn/npm/katex@latest/dist/katex.min.css
-  katex_copytex: https://jsd.cdn.zzko.cn/npm/katex-copytex@latest/dist/katex-copytex.min.js
-  katex_copytex_css: https://jsd.cdn.zzko.cn/npm/katex-copytex@latest/dist/katex-copytex.min.css
-  mermaid: https://jsd.cdn.zzko.cn/npm/mermaid/dist/mermaid.min.js
+  mathjax: https://Fastly.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  katex: https://Fastly.jsdelivr.net/npm/katex@latest/dist/katex.min.css
+  katex_copytex: https://Fastly.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.js
+  katex_copytex_css: https://Fastly.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.css
+  mermaid: https://Fastly.jsdelivr.net/npm/mermaid/dist/mermaid.min.js
 
   # count
   busuanzi: //busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js
@@ -851,38 +851,38 @@ CDN:
   canvas_ribbon_piao: /js/third-party/piao.js
   canvas_nest: /js/third-party/canvas-nest.js
 
-  lazyload: https://jsd.cdn.zzko.cn/npm/vanilla-lazyload/dist/lazyload.iife.min.js
-  instantpage: https://jsd.cdn.zzko.cn/npm/instant.page/instantpage.min.js
-  typed: https://jsd.cdn.zzko.cn/npm/typed.js/lib/typed.min.js
-  pangu: https://jsd.cdn.zzko.cn/npm/pangu/dist/browser/pangu.min.js
+  lazyload: https://Fastly.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js
+  instantpage: https://Fastly.jsdelivr.net/npm/instant.page/instantpage.min.js
+  typed: https://Fastly.jsdelivr.net/npm/typed.js/lib/typed.min.js
+  pangu: https://Fastly.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js
 
   # photo
-  fancybox_css: https://jsd.cdn.zzko.cn/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css
-  fancybox: https://jsd.cdn.zzko.cn/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js
-  medium_zoom: https://jsd.cdn.zzko.cn/npm/medium-zoom/dist/medium-zoom.min.js
+  fancybox_css: https://Fastly.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css
+  fancybox: https://Fastly.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js
+  medium_zoom: https://Fastly.jsdelivr.net/npm/medium-zoom/dist/medium-zoom.min.js
 
   # snackbar
-  snackbar_css: https://jsd.cdn.zzko.cn/npm/node-snackbar/dist/snackbar.min.css
-  snackbar: https://jsd.cdn.zzko.cn/npm/node-snackbar/dist/snackbar.min.js
+  snackbar_css: https://Fastly.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css
+  snackbar: https://Fastly.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js
 
   # effect
-  anime: https://jsd.cdn.zzko.cn/npm/animejs@latest/anime.min.js
+  anime: https://Fastly.jsdelivr.net/npm/animejs@latest/anime.min.js
   activate_power_mode: /js/third-party/activate-power-mode.js
   fireworks: /js/third-party/fireworks.js
   click_heart: /js/third-party/click_heart.js
   ClickShowText: /js/third-party/ClickShowText.js
 
   # fontawesome
-  fontawesome: https://jsd.cdn.zzko.cn/npm/@fortawesome/fontawesome-free/css/all.min.css
+  fontawesome: https://Fastly.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css
 
   # Conversion between Traditional and Simplified Chinese
   translate: /js/tw_cn.js
 
   # justifiedGallery
-  justifiedGallery_js: https://jsd.cdn.zzko.cn/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js
-  justifiedGallery_css: https://jsd.cdn.zzko.cn/npm/justifiedGallery/dist/css/justifiedGallery.min.css
+  justifiedGallery_js: https://Fastly.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js
+  justifiedGallery_css: https://Fastly.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css
 
   # aplayer
-  aplayer_css: https://jsd.cdn.zzko.cn/npm/aplayer/dist/APlayer.min.css
-  aplayer_js: https://jsd.cdn.zzko.cn/npm/aplayer/dist/APlayer.min.js
-  meting_js: https://jsd.cdn.zzko.cn/gh/metowolf/MetingJS@1.2/dist/Meting.min.js
+  aplayer_css: https://Fastly.jsdelivr.net/npm/aplayer/dist/APlayer.min.css
+  aplayer_js: https://Fastly.jsdelivr.net/npm/aplayer/dist/APlayer.min.js
+  meting_js: https://Fastly.jsdelivr.net/gh/metowolf/MetingJS@1.2/dist/Meting.min.js
