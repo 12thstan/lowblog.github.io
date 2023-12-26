@@ -787,7 +787,7 @@ inject:
     
   bottom:
     #音乐
-    # - <div class="aplayer no-destroy" data-id="4989347813" data-server="netease" data-type="playlist" data-fixed="true" data-mini="true" data-listFolded="true" data-order="random" data-preload="auto" data-autoplay="false" muted></div>
+    #- <div class="aplayer no-destroy" data-id="4989347813" data-server="netease" data-type="playlist" data-fixed="true" data-mini="true" data-listFolded="true" data-order="random" data-preload="auto" data-autoplay="false" muted></div>
 
     #页脚鱼
     - <script src="/js/fishes.js"></script>
@@ -810,38 +810,38 @@ inject:
 CDN:
   # main
   main_css: /css/index.css
-  jquery: https://unpkg.com/jquery@latest/dist/jquery.min.js
+  jquery: https://cdn.c12th.cn/jquery@latest/dist/jquery.min.js
   main: /js/main.js
   utils: /js/utils.js
 
   # pjax
-  pjax: https://unpkg.com/pjax/pjax.min.js
+  pjax: https://cdn.c12th.cn/pjax/pjax.min.js
 
   # comments
-  gitalk: https://unpkg.com/gitalk@latest/dist/gitalk.min.js
-  gitalk_css: https://unpkg.com/gitalk/dist/gitalk.min.css
-  valine: https://unpkg.com/valine/dist/Valine.min.js
-  disqusjs: https://unpkg.com/disqusjs@1/dist/disqus.js
-  disqusjs_css: https://unpkg.com/disqusjs@1/dist/disqusjs.css
+  gitalk: https://cdn.c12th.cn/gitalk@latest/dist/gitalk.min.js
+  gitalk_css: https://cdn.c12th.cn/gitalk/dist/gitalk.min.css
+  valine: https://cdn.c12th.cn/valine/dist/Valine.min.js
+  disqusjs: https://cdn.c12th.cn/disqusjs@1/dist/disqus.js
+  disqusjs_css: https://cdn.c12th.cn/disqusjs@1/dist/disqusjs.css
   utterances: https://utteranc.es/client.js
 
   # share
   addtoany: https://static.addtoany.com/menu/page.js
-  sharejs: https://unpkg.com/social-share.js/dist/js/social-share.min.js
-  sharejs_css: https://unpkg.com/social-share.js/dist/css/share.min.css
+  sharejs: https://cdn.c12th.cn/social-share.js/dist/js/social-share.min.js
+  sharejs_css: https://cdn.c12th.cn/social-share.js/dist/css/share.min.css
 
   # search
   local_search: /js/search/local-search.js
   algolia_js: /js/search/algolia.js
-  algolia_search: https://unpkg.com/instantsearch.js@2.10.5/dist/instantsearch.min.js
-  algolia_search_css: https://unpkg.com/instantsearch.js@2.10.5/dist/instantsearch.min.css
+  algolia_search: https://cdn.c12th.cn/instantsearch.js@2.10.5/dist/instantsearch.min.js
+  algolia_search_css: https://cdn.c12th.cn/instantsearch.js@2.10.5/dist/instantsearch.min.css
 
   # math
-  mathjax: https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
-  katex: https://unpkg.com/katex@latest/dist/katex.min.css
-  katex_copytex: https://unpkg.com/katex-copytex@latest/dist/katex-copytex.min.js
-  katex_copytex_css: https://unpkg.com/katex-copytex@latest/dist/katex-copytex.min.css
-  mermaid: https://unpkg.com/mermaid/dist/mermaid.min.js
+  mathjax: https://cdn.c12th.cn/mathjax@3/es5/tex-mml-chtml.js
+  katex: https://cdn.c12th.cn/katex@latest/dist/katex.min.css
+  katex_copytex: https://cdn.c12th.cn/katex-copytex@latest/dist/katex-copytex.min.js
+  katex_copytex_css: https://cdn.c12th.cn/katex-copytex@latest/dist/katex-copytex.min.css
+  mermaid: https://cdn.c12th.cn/mermaid/dist/mermaid.min.js
 
   # count
   busuanzi: //busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js
@@ -851,38 +851,38 @@ CDN:
   canvas_ribbon_piao: /js/third-party/piao.js
   canvas_nest: /js/third-party/canvas-nest.js
 
-  lazyload: https://unpkg.com/vanilla-lazyload/dist/lazyload.iife.min.js
-  instantpage: https://unpkg.com/instant.page/instantpage.min.js
-  typed: https://unpkg.com/typed.js/lib/typed.min.js
-  pangu: https://unpkg.com/pangu/dist/browser/pangu.min.js
+  lazyload: https://cdn.c12th.cn/vanilla-lazyload/dist/lazyload.iife.min.js
+  instantpage: https://cdn.c12th.cn/instant.page/instantpage.min.js
+  typed: https://cdn.c12th.cn/typed.js/lib/typed.min.js
+  pangu: https://cdn.c12th.cn/pangu/dist/browser/pangu.min.js
 
   # photo
-  fancybox_css: https://unpkg.com/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css
-  fancybox: https://unpkg.com/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js
-  medium_zoom: https://unpkg.com/medium-zoom/dist/medium-zoom.min.js
+  fancybox_css: https://cdn.c12th.cn/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css
+  fancybox: https://cdn.c12th.cn/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js
+  medium_zoom: https://cdn.c12th.cn/medium-zoom/dist/medium-zoom.min.js
 
   # snackbar
-  snackbar_css: https://unpkg.com/node-snackbar/dist/snackbar.min.css
-  snackbar: https://unpkg.com/node-snackbar/dist/snackbar.min.js
+  snackbar_css: https://cdn.c12th.cn/node-snackbar/dist/snackbar.min.css
+  snackbar: https://cdn.c12th.cn/node-snackbar/dist/snackbar.min.js
 
   # effect
-  anime: https://unpkg.com/animejs@latest/anime.min.js
+  anime: https://cdn.c12th.cn/animejs@latest/anime.min.js
   activate_power_mode: /js/third-party/activate-power-mode.js
   fireworks: /js/third-party/fireworks.js
   click_heart: /js/third-party/click_heart.js
   ClickShowText: /js/third-party/ClickShowText.js
 
   # fontawesome
-  fontawesome: https://unpkg.com/@fortawesome/fontawesome-free/css/all.min.css
+  fontawesome: https://cdn.c12th.cn/@fortawesome/fontawesome-free/css/all.min.css
 
   # Conversion between Traditional and Simplified Chinese
   translate: /js/tw_cn.js
 
   # justifiedGallery
-  justifiedGallery_js: https://unpkg.com/justifiedGallery/dist/js/jquery.justifiedGallery.min.js
-  justifiedGallery_css: https://unpkg.com/justifiedGallery/dist/css/justifiedGallery.min.css
+  justifiedGallery_js: https://cdn.c12th.cn/justifiedGallery/dist/js/jquery.justifiedGallery.min.js
+  justifiedGallery_css: https://cdn.c12th.cn/justifiedGallery/dist/css/justifiedGallery.min.css
 
   # aplayer
-  aplayer_css: https://unpkg.com/aplayer/dist/APlayer.min.css
-  aplayer_js: https://unpkg.com/aplayer/dist/APlayer.min.js
-  meting_js: https://Fastly.jsdelivr.net/gh/metowolf/MetingJS@1.2/dist/Meting.min.js
+  aplayer_css: https://cdn.c12th.cn/aplayer/dist/APlayer.min.css
+  aplayer_js: https://cdn.c12th.cn/aplayer/dist/APlayer.min.js
+  meting_js: https://cdnjs.cloudflare.com/ajax/libs/meting/2.0.1/Meting.min.js
