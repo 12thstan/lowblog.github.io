@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://catth.eu.org #网站链接
+url: https://lowblog.github.io #网站链接
 #permalink: :year/:month/:day/:title/
 permalink: archives/:abbrlink.html  # p 是自定义的前缀
 abbrlink:
