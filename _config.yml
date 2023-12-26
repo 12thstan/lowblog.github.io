@@ -166,5 +166,5 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: 'git'
-  repo: #部署网站的仓库名
-  branch: master
+  repo: https://github.com/12thstan/lowblog.git 部署网站的仓库名
+  branch: action
