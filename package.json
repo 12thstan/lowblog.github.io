@@ -12,7 +12,7 @@
     "version": "6.0.0"
   },
   "dependencies": {
-    "gulp": "^4.0.2",
+    "gulp": "^5.0.0",
     "hexo": "^6.0.0",
     "hexo-browsersync": "^0.3.0",
     "hexo-butterfly-clock": "^1.0.7",
