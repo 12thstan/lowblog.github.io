@@ -1,12 +1,14 @@
 ---
 title: Test
-cover: 
+cover: https://npm.elemecdn.com/reverse-stu-allversions@latest/2023/img02/03.gif
 ---
 
 # 测试
 
 ## 主题文章测试
 
-> 开源[github](https://github.com/12thstan/Lowblog-)
+### 开源仓库
 
-> 开源[gitee](https://gitee.com/c12th/lowblog)
+> [Github](https://github.com/12thstan/Lowblog-)
+
+> [Gitee](https://gitee.com/c12th/lowblog)
