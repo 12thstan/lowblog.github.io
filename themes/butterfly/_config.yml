@@ -8,7 +8,7 @@
 
 menu:
   主页: / || fas fa-home
-  博客: https://c12th.gitee.io || fas fa-align-right
+  博客: https://blog.c12th.cn || fas fa-align-right
   #  归档: /archives/ || fas fa-archive
   #  标签: /tags/ || fas fa-tags
   #  分类: /categories/ || fas fa-folder-open
